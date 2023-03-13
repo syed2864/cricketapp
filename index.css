@@ -1,0 +1,37 @@
+/* Write your code here. */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
+.container{
+    background-color: #01f72a;
+    color: #faf8fc;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    font-size: 25px;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+@media (min-width:"768px") {
+    img {
+        width: 300px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
+} 
